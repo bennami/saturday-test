@@ -37,9 +37,15 @@ try to locate where you are, create a file, rename it and move it to another fol
   
   ## Configure git
 
-  1. SSH key <!-- this will store pasword of github so you dont have to do it every time you want to push, pull,...-->
+  1. SSH key <!--- this will store pasword of github so you dont have to do it every time you want to push, pull,...--->
   open terminal and use following command to generate a ssh key:
   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  
+  copy the key you generate and paste it on your github account.
+    there are two ways to copy:
+      - ctrl+C or cmnd+C
+      -  use following command on terminal: pbcopy < ~/.ssh/id_rsa.pub <!-- change folder name if yours is different -->
+      
 
 
   ## Use git
